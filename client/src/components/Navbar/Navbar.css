@@ -3,7 +3,7 @@
     --secondary: #FC7753;
     --background1: #160f29;
     --text-colour:white;
-    --highlight1: #246a73;
+    --highlight1: #fc7753;
 
 }
 
@@ -20,7 +20,7 @@
     position: absolute;
     width: 100%;
     transform: scaleX(0);
-    height: 2px;
+    height: 3px;
     bottom: 0;
     left: 0;
     background-color: var(--secondary);
@@ -197,7 +197,6 @@
         padding:1.5rem;
         margin: 2rem auto;
         width: 80%;
-        background-color: purple;
     }
 
     .hover-underline-animation:after {

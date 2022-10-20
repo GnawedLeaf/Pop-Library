@@ -4,20 +4,12 @@ import "./home.css";
 
 export default function Home() {
   return (
-    <div>
+    <div className="disableScroll home-body">
       <div className="animation-container">
         
         <div className="row row1">
           <div className="text-animation">
-            When Mr. Bilbo Baggins of Bag End announced that he would shortly be
-            celebrating his eleventy-first birthday with a party of special
-            magnificence, there was much talk and excitement in Hobbiton. Bilbo
-            was very rich and very peculiar, and had been the wonder of the
-            Shire for sixty years, ever since his remarkable disappearance and
-            unexpected return. The riches he had brought back from his travels
-            had now become a local legend, and it was popularly believed,
-            whatever the old folk might say, that the Hill at Bag End was full
-            of tunnels stuffed with treasure.{" "}
+          You have a debt to pay. You've been captain of the Black Pearl for 13 years. That was our agreement. Technically I was only captain for two years, then I was viciously mutinied upon. Then you were a poor captain, but a captain nonetheless. Have you not introduced yourself all these years as Captain Jack Sparrow? You have my payment. One soul to serve on your ship is already over there. One soul is not equal to another. So we've established my proposal is sound in principle. Now we're haggling over price. Price? Just how many souls do you think my soul is worth? One hundred souls. Three days. You're a diamond, mate. Send me back the boy. I'll get started right off. I keep the boy. A good-faith payment. That leaves you only 99 more to go. Have you not met Will Turner?
           </div>
         </div>
         <div className="row row2 row-create">
@@ -88,15 +80,25 @@ export default function Home() {
         </div>
         <div className="row row1">
           <div className="text-animation">
-            When Mr. Bilbo Baggins of Bag End announced that he would shortly be
-            celebrating his eleventy-first birthday with a party of special
-            magnificence, there was much talk and excitement in Hobbiton. Bilbo
-            was very rich and very peculiar, and had been the wonder of the
-            Shire for sixty years, ever since his remarkable disappearance and
-            unexpected return. The riches he had brought back from his travels
-            had now become a local legend, and it was popularly believed,
-            whatever the old folk might say, that the Hill at Bag End was full
-            of tunnels stuffed with treasure.{" "}
+          “Sow a thought, reap an action; sow an action, reap a habit; sow a habit, reap a character; sow a character, reap a destiny.” “It's not what happens to us, but our response to what happens to us that hurts us.” “Two people can see the same thing, disagree, and yet both be right. It's not logical; it's psychological.” “When the trust account is high, communication is easy, instant, and effective.”“If I really want to improve my situation, I can work on the one thing over which I have control - myself.”
+          </div>
+        </div>
+
+        <div className="row row3">
+          <div className="text-animation">
+          Mr. Ray: Come on, sing with me! There’s porifera, coelentera, hydrozoa, scyphozoa, anthozoa, ctenophora, bryozoas, three! Nemo: Hey guys, wait up! Whoa! Tad: Cool. Saved your life! Pearl: [inks] Aahh, you guys made me ink! Nemo: What’s that? Tad: I know what that is. Sandy Plankton saw one. He called, he said it was called a butt! Pearl: Wow! That’s a pretty big butt. Sheldon: Oh, look at me. I’m gonna go touch the butt! [sneezes] Whoa!! [laughter] Oh, yeah? Let’s see you get closer. Pearl: OK. Beat that! Tad: Come on, Nemo. How far can you go? Nemo: Oh, um... my dad says it’s not safe.
+          </div>
+        </div>
+
+        <div className="row row2">
+          <div className="text-animation">
+          Mr. Ray: Come on, sing with me! There’s porifera, coelentera, hydrozoa, scyphozoa, anthozoa, ctenophora, bryozoas, three! Nemo: Hey guys, wait up! Whoa! Tad: Cool. Saved your life! Pearl: [inks] Aahh, you guys made me ink! Nemo: What’s that? Tad: I know what that is. Sandy Plankton saw one. He called, he said it was called a butt! Pearl: Wow! That’s a pretty big butt. Sheldon: Oh, look at me. I’m gonna go touch the butt! [sneezes] Whoa!! [laughter] Oh, yeah? Let’s see you get closer. Pearl: OK. Beat that! Tad: Come on, Nemo. How far can you go? Nemo: Oh, um... my dad says it’s not safe.
+          </div>
+        </div>
+
+        <div className="row row1">
+          <div className="text-animation">
+          Mr. Ray: Come on, sing with me! There’s porifera, coelentera, hydrozoa, scyphozoa, anthozoa, ctenophora, bryozoas, three! Nemo: Hey guys, wait up! Whoa! Tad: Cool. Saved your life! Pearl: [inks] Aahh, you guys made me ink! Nemo: What’s that? Tad: I know what that is. Sandy Plankton saw one. He called, he said it was called a butt! Pearl: Wow! That’s a pretty big butt. Sheldon: Oh, look at me. I’m gonna go touch the butt! [sneezes] Whoa!! [laughter] Oh, yeah? Let’s see you get closer. Pearl: OK. Beat that! Tad: Come on, Nemo. How far can you go? Nemo: Oh, um... my dad says it’s not safe.
           </div>
         </div>
   

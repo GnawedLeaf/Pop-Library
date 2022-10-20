@@ -4,14 +4,20 @@
 }
 
 body{
+    overflow-y: auto;
     background-color:white;
     color:black;
     cursor: default;
-    overflow-y: auto;
+    
 }
 
+.enableScroll{
+    overflow: auto;
+}
+
+
 .title{
-    padding-top: 6%;
+    padding-top: 8%;
     font-size: 3.5vw;
     text-align: center;
 

@@ -45,7 +45,7 @@ export default function Create() {
 
     // This following section will display the form that takes the input from the user.
     return (
-        <div>
+        <div className="enableScroll">
             <h2 className="title">Add New Book</h2>
             
             <form className="form" onSubmit={onSubmit}>

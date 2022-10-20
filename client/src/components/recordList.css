@@ -1,6 +1,7 @@
 body{
     background-color:white;
     color:black;
+    width: 100%;
 }
 
 .book-list-title{
@@ -16,8 +17,8 @@ body{
 
 .table{
     text-align: center;
-    border:1px solid black;
-    width:90%;    
+
+    width:100%;    
 }
 
 

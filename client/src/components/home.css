@@ -1,9 +1,14 @@
-body{
-    overflow-x: hidden;
-
+.home-body{
     margin:0;
     padding:0;
     white-space: nowrap;
+}
+
+
+
+.disableScroll{
+    overflow-y: hidden;
+    overflow-x: hidden;
 }
 
 .animation-container{
@@ -100,9 +105,9 @@ body{
 
 }
 
-@media screen and (max-width:1000px) {
+@media screen and (max-width:1500px) {
     .text-animation{
-        font-size: 50px;
+        font-size: 55px;
     }
 
     .name{
