@@ -9,7 +9,7 @@ export default function Home() {
         
         <div className="row row1">
           <div className="text-animation">
-         
+          You have a debt to pay. You've been captain of the Black Pearl for 13 years. That was our agreement. Technically I was only captain for two years, then I was viciously mutinied upon. Then you were a poor captain, but a captain nonetheless. Have you not introduced yourself all these years as Captain Jack Sparrow? You have my payment. One soul to serve on your ship is already over there. One soul is not equal to another. So we've established my proposal is sound in principle. Now we're haggling over price. Price? Just how many souls do you think my soul is worth? One hundred souls. Three days. You're a diamond, mate. Send me back the boy. I'll get started right off. I keep the boy. A good-faith payment. That leaves you only 99 more to go. Have you not met Will Turner?
           </div>
         </div>
         <div className="row row2 row-create">
