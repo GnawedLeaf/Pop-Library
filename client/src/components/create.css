@@ -1,0 +1,107 @@
+::selection{
+    background-color: var(--secondary);
+    color:white;
+}
+
+body{
+    background-color:white;
+    color:black;
+    cursor: default;
+    overflow-y: auto;
+}
+
+.title{
+    padding-top: 6%;
+    font-size: 3.5vw;
+    text-align: center;
+
+}
+
+.form{
+    background-color: white;
+    color:black;
+    width:50%;
+    border: 1px solid black;
+    margin: 2% 0 0 25%;
+    padding: 2%;
+    text-align: center;
+    font-size: 1.2vw;
+    z-index: 11;
+    margin-bottom: 2%;
+
+}
+.form-group{
+    margin: 1%;
+    padding: 1%;
+    
+}
+
+
+input[type='text']{ 
+    
+    margin: 2%; 
+    font-size: 1.2vw;
+    border: 1px solid black;
+    
+}
+
+
+
+input[type='radio']:checked{
+
+    background-color: var(--header);
+}
+
+.label {
+    padding-right: 2%;
+}
+
+.booktitle{
+    margin-right: 3%;
+}
+
+.form-check-label{
+    margin: 2%;
+}
+
+input[type='radio'] { 
+    transform: scale(1.2); 
+}
+
+
+
+.btn--medium{
+    padding: 2.5%;
+    border-radius: 10px;
+    font-size: 1.3vw;
+}
+
+.btn--medium:hover{
+    padding: 2.5%;
+}
+
+
+
+.availability{
+    margin-bottom: 5%;
+}
+
+@media screen and (max-width: 1000px){
+    .form{
+        background-color: white;
+        color:black;
+        width:50%;
+        border: 1px solid black;
+        margin: 2% 0 0 25%;
+        padding: 2%;
+        text-align: center;
+        font-size: 1rem;
+        margin-bottom: 2%;
+    }
+
+    .title{
+        font-size: 2rem;
+        text-align: center;
+    }
+}
+

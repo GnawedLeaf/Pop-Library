@@ -1,0 +1,148 @@
+body{
+    background-color:white;
+    color:black;
+}
+
+.book-list-title{
+    margin-bottom: 3%;
+    
+}
+
+.table-responsive{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.table{
+    text-align: center;
+    border:1px solid black;
+    width:90%;    
+}
+
+
+
+
+
+.available{
+    color:#3BCD4A;
+} 
+
+.unavailable{
+    color:red;
+}
+
+.table-hover tbody tr:hover td, tr:hover {
+    color:currentColor;
+    cursor: default;
+  }
+
+
+th{
+    margin: 0;
+    padding: 0;
+    color:white;
+    font-size: 1.3vw;
+    cursor: default;
+    font-weight: 100;
+}
+
+.table-title{
+    background-color: var(--header);
+    border-bottom: var(--header);
+   
+}
+
+tr{
+    padding:0;
+    font-size: 1vw;
+}
+
+
+td{
+    text-align: center;
+    vertical-align: middle;
+}
+
+
+.book-title{
+    font-size: 1.2vw;
+    font-weight: bolder;
+    padding: 0;
+    margin: 0;
+}
+
+.available{
+    color:#3BCD4A;
+} 
+
+.unavailable{
+    color:red;
+}
+
+
+
+
+
+
+.edit-btn{
+    text-decoration: none;
+    border:1px solid var(--header);
+    border-radius: 5px;
+    color:black;
+}
+
+.edit-btn:hover{
+    text-decoration: none;
+    border:1px solid var(--header);
+    border-radius: 5px;
+    color:white;
+    background-color: var(--header);
+}
+
+
+.del-btn{
+    color:red;
+    text-decoration: none;
+    border:1px solid red;
+    border-radius: 5px;
+}
+
+
+.del-btn:hover{
+    background-color: red;
+    color:white;
+     border:1px solid red;
+}
+
+
+@media screen and (max-width: 1000px){
+    .edit-btn , .del-btn{
+        font-size: 15px;
+        padding:5%;
+        border-radius: 3px;
+    }
+
+    .edit-btn{
+        padding-left: 19%;
+        padding-right: 19%;
+    }
+
+    tr , th, .book-title{
+        font-size: 15px;
+    }
+
+    .del-btn:hover, .edit-btn:hover{
+        border-radius: 3px;
+         font-size: 15px;
+         padding:5%;
+    }
+
+    .edit-btn:hover{
+        padding-left: 19%;
+        padding-right: 19%;
+    }
+
+
+
+}

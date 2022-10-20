@@ -1,0 +1,10 @@
+
+
+*{
+    /*box sizing: border-box includes the padding so the div doesnt expand when you increase the padding, the padding is restricted by the dimenions set*/
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+}
+
