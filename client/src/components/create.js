@@ -1,8 +1,7 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router";
-
 import "./create.css"
-import {Button} from "./Button"
+import { Button } from "./Button"
 
 export default function Create() {
     const [form, setForm] = useState({
@@ -10,6 +9,7 @@ export default function Create() {
         author: "",
         availability: "",
         subject: "",
+        description:"",
     });
     const navigate = useNavigate();
 
@@ -39,7 +39,7 @@ export default function Create() {
                 return;
             });
 
-        setForm({ name: "", author: "", availability: "", subject:"" });
+        setForm({ name: "", author: "", availability: "", subject: "" , description: ""});
         navigate("/records");
     }
 
@@ -47,7 +47,7 @@ export default function Create() {
     return (
         <div className="enableScroll">
             <h2 className="title">Add New Book</h2>
-            
+
             <form className="form" onSubmit={onSubmit}>
                 <div className="form-group ">
                     <label className="label booktitle" htmlFor="name">Title</label>
@@ -75,6 +75,7 @@ export default function Create() {
                 <div className="form-group subject">
                     <label className="label" htmlFor="subject">Subject</label>
                     <input
+                        rows="5"
                         type="text"
                         className="form-control"
                         id="subject"
@@ -83,6 +84,21 @@ export default function Create() {
                         onChange={(e) => updateForm({ subject: e.target.value })}
                     />
                 </div>
+                {/* Description input*/}
+                <div className="form-group">
+                    <label className="label" htmlFor="description">Description</label>
+                    <textarea
+                        rows="5"
+                        type="text"
+                        className="form-control description"
+                        id="description"
+                        placeholder="Eg. In this gripping novel..."
+                        value={form.description}
+                        onChange={(e) => updateForm({ description: e.target.value })}
+                    />
+                </div>
+
+
                 <div className="form-group availability">
                     <div className="form-check form-check-inline">
                         <input
@@ -109,7 +125,7 @@ export default function Create() {
                         />
                         <label htmlFor="authorUnavailable" className="form-check-label">Unavailable</label>
                     </div>
-                    
+
                 </div>
                 <div className="form-group">
                     <Button className="btn--large">

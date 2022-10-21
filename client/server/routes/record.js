@@ -41,6 +41,7 @@ recordRoutes.route("/record/add").post(function (req, response) {
     author: req.body.author,
     availability: req.body.availability,
     subject:req.body.subject,
+    description: req.body.description,
   };
   db_connect.collection("records").insertOne(myobj, function (err, res) {
     if (err) throw err;
@@ -58,6 +59,7 @@ recordRoutes.route("/update/:id").post(function (req, response) {
       author: req.body.author,
       availability: req.body.availability,
       subject:req.body.subject,
+      description: req.body.description,
     },
   };
   db_connect

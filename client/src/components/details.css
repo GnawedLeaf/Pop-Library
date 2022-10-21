@@ -1,0 +1,48 @@
+body{
+    text-align: center;
+}
+
+
+.details-title{
+    color:var(--primary);
+}
+
+.author1{
+    font-size: 2vw;
+}
+
+.subject1{
+    font-size: 1.5vw;
+}
+
+.description1{
+    width: 50%;
+    border: 1px solid black;
+    padding:2%;
+    font-size: 0.9vw;
+    margin-bottom: 2%;
+}
+
+.description-title{
+    margin-top: 2%;
+    margin-bottom: 0.5%;
+    font-size: 1.2vw;
+
+}
+.details-available{
+    color:#3BCD4A;
+    font-size: 1.1vw;
+    font-weight: bold;
+    margin-top: 1%;
+    
+
+}
+
+.details-unavailable{
+    margin-top: 1%;
+    color:red;
+    font-size: 1.1vw;
+    font-weight: bold;
+    
+
+}

@@ -9,6 +9,7 @@ export default function Edit() {
         author: "",
         availability: "",
         subject: "",
+        description:  "",
         records: [],
     });
     const params = useParams();
@@ -54,6 +55,7 @@ export default function Edit() {
             author: form.author,
             availability: form.availability,
             subject: form.subject,
+            description: form.description,
         };
 
         // This will send a post request to update the data in the database.
@@ -102,6 +104,18 @@ export default function Edit() {
                         id="subject"
                         value={form.subject}
                         onChange={(e) => updateForm({ subject: e.target.value })}
+                    />
+                </div>
+                <div className="form-group">
+                    <label className="label" htmlFor="description">Description</label>
+                    <textarea
+                        rows="5"
+                        type="text"
+                        className="form-control description"
+                        id="description"
+                        placeholder="Eg. In this gripping novel..."
+                        value={form.description}
+                        onChange={(e) => updateForm({ description: e.target.value })}
                     />
                 </div>
                 <div className="form-group">

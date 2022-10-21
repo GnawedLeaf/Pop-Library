@@ -14,11 +14,7 @@ export default function Home() {
         </div>
         <div className="row row2 row-create">
           <div className="text-animation ">
-            And if that was not enough for fame, there <a href='/create' className="book-list-link"> Add Book </a> was also his prolonged
-            vigour to marvel at.  Time wore on, but it seemed to have little
-            effect on <a href='/create' className="book-list-link"> Add Book </a> Mr. Baggins. At ninety he was much the same as at fifty.
-            At ninety-nine they began to call him well-preserved, but unchanged
-            would have been nearer the mark.{" "}
+          You cannot pass," he said. The orcs stood still, and a dead silence fell. "I am a servant of the <a href='/create' className="book-list-link">Add Book</a> Secret Fire, wielder of the flame of Anor . You cannot pass. The <a href='/create' className="book-list-link">Add Book</a> dark fire will not avail you,  flame of Udûn. Go back to the Shadow! You cannot pass. The Balrog made no answer. The fire in it seemed to die, but the darkness grew. It stepped forward slowly onto the bridge, and suddenly it drew itself up to a great height, and its wings were spread from wall to wall; but still Gandalf could be seen, glimmering in the gloom; he seemed small, and altogether alone: grey and bent, like a wizened tree before the onset of a storm
           </div>
         </div>
         <div className="row row3">
@@ -92,7 +88,8 @@ export default function Home() {
 
         <div className="row row2">
           <div className="text-animation">
-          Mr. Ray: Come on, sing with me! There’s porifera, coelentera, hydrozoa, scyphozoa, anthozoa, ctenophora, bryozoas, three! Nemo: Hey guys, wait up! Whoa! Tad: Cool. Saved your life! Pearl: [inks] Aahh, you guys made me ink! Nemo: What’s that? Tad: I know what that is. Sandy Plankton saw one. He called, he said it was called a butt! Pearl: Wow! That’s a pretty big butt. Sheldon: Oh, look at me. I’m gonna go touch the butt! [sneezes] Whoa!! [laughter] Oh, yeah? Let’s see you get closer. Pearl: OK. Beat that! Tad: Come on, Nemo. How far can you go? Nemo: Oh, um... my dad says it’s not safe.
+          R2 says the chances of survival are 725-to-1. Actually, R2 has been known to make mistakes ... from time to time. Oh, dear. Oh, dear. Don't worry about Master Luke. I'm sure he'll be all right. He's quite clever, you know, for a human being. Luke. Luke. Ben? You will go to the Dagobah system. Dagobah system? There you will learn from Yoda ... the Jedi master who instructed me. Don't do this, Luke. Give me a sign here. - Not much time. - Ben. Hang on, kid. Dagobah system. Dagobah. This may smell bad, kid ... Yoda. but it'll keep you warm till I get the shelter up. Ben. Dagobah. I thought they smelled bad ... on the outside. Echo Base, I've got something. Not much, but it could be a life form. Commander Skywalker, do you copy? This is Rogue Two. This is Rogue Two. Captain Solo, do you copy? Commander Skywalker, do you copy? This is Rogue Two. Good morning. Nice of you guys to drop by. Echo Base, this is Rogue Two. I've found them.
+          
           </div>
         </div>
 

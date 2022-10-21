@@ -12,11 +12,17 @@ const Record = (props) => (
     <td>{props.record.subject}</td>
     <td className={(props.record.availability === 'Available') ? 'available' : 'unavailable'}>{props.record.availability}</td>
 
+    
     <td>
+
+    <Link className="btn btn-link edit-btn" to={`/details/${props.record._id}`}>
+        Details
+      </Link>{" "}
+
       <Link className="btn btn-link edit-btn" to={`/edit/${props.record._id}`}>
         Edit
       </Link>{" "}
-      
+
       <button
         className="btn btn-link del-btn"
         onClick={() => {
